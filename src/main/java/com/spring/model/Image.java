@@ -2,6 +2,7 @@ package com.spring.model;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.Type;
 
 @Entity
 @Table(name="images")

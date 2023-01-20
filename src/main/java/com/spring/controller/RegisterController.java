@@ -14,8 +14,8 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("/api")
-public class UserController {
+@RequestMapping("/register")
+public class RegisterController {
 
     @Autowired
     private UserService userService;
